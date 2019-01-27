@@ -1,0 +1,64 @@
+/*.background {
+    background-image: url('neighborhood.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+}*/
+
+.topbar_all {
+    background-color: rgba(143,170,168,0.7);
+}
+
+.text {
+    margin-top: 80px;
+}
+.posts{
+    background-color: white;
+    width: 50%;
+    position: relative;
+    left: 250px;
+    margin: 50px;
+    border: solid;
+    border-width: 7px;
+}
+.news-titles{
+    border: solid;
+    border-width: 4px;
+    margin: 20px;
+}
+.news-content{
+    border: solid;
+    border-width: 2px;
+    margin: 20px;
+}
+.delete-botton{
+    margin: 20px;
+}
+.img{
+    margin: 20px;
+}
+.name-of-writer{
+    margin: 20px;
+}
+.date{
+    margin: 20px; 
+}
+.new-things{
+    background-color: white;
+    position: relative;
+    left: 250px;
+    width: 820px;
+    border:solid;
+    border-width: 3px;
+}
+#your-neighborhoods-page{
+    text-align: center;
+}
+.new-info{
+    margin: 30px;
+}
