@@ -87,7 +87,10 @@ def a_website():
 
 @app.route('/logout', methods=['GET'])
 def logout():
-    del login_session['username']
+    try:
+        del login_session['username']
+    except:
+        pass
     return redirect (url_for("home"))
 
 

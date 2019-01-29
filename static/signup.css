@@ -1,5 +1,7 @@
-/*.background {
-    background-image: url('1.png');
+
+body {
+    background-image: url("imgs/2.jpg");
+    background-filter: blur(5px);
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
@@ -8,14 +10,15 @@
     left: 0px;
     height: 100vh;
     width: 100vw;
-}*/
-
-.topbar_all {
-    background-color: rgba(143,170,168,0.7);
 }
+
 .login-title{
     text-align: center;
     text-transform: uppercase;
     color: rgb(50, 153, 194);
     margin-top:90px;
+}
+
+#home-content{
+
 }

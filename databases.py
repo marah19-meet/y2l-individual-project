@@ -2,7 +2,8 @@ from model import Base, User,Content,Content2
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
 from sqlalchemy.pool import NullPool
-import datetime
+from datetime import datetime
+
 
 
 engine = create_engine('sqlite:///ShareTheStory.db', poolclass=NullPool)

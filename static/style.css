@@ -1,4 +1,3 @@
-
 * {
     /* Removes extra spacing from all elements on the page */
     padding: 0;
@@ -20,7 +19,7 @@ body {
 }
 
 .background {
-    background-image: url("1.png") ;
+    background-image: url("1.jpg") ;
     /* Set a specific height */
     min-height: 500px; 
     
@@ -50,8 +49,8 @@ body {
 
 }
 
-.topbar_all{
-    background-color:rgba(143,170,168,0.7);
+/*.topbar_all{
+    
     position: fixed;
     top: 0px;
     left: 0px;
@@ -59,7 +58,7 @@ body {
     height: 80px;
     z-index: 10000;
 }
-
+*/
 .topbar{
     color:black;
     font-size: 20px;
