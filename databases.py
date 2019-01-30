@@ -32,13 +32,13 @@ def login(their_name,their_password):
         print("False")
         return False
 ##/////////////////////////////////
-def add_content(title,op,text,image):
-    content=Content(title=title,op=op,time_of_upload=datetime.utcnow(),text=text,image=image)
+def add_content(title,op,text):
+    content=Content(title=title,op=op,time_of_upload=datetime.utcnow(),text=text)
     session.add(content)
     session.commit()
 
-def add_content2(title,op,text,image):
-    content2=Content2(title=title,op=op,time_of_upload=datetime.utcnow(),text=text,image=image)
+def add_content2(title,op,text):
+    content2=Content2(title=title,op=op,time_of_upload=datetime.utcnow(),text=text)
     session.add(content2)
     session.commit()
 

@@ -56,9 +56,9 @@ def news_route():
         if 'username' in login_session:
             title=request.form['title']
             content=request.form['content']
-            image_url=request.form['image_url']
+            # image_url=request.form['image_url']
             op = login_session.get('username')
-            add_content(title, op, content, image_url)
+            add_content(title, op, content)
             return render_template('news.html',news=query_by_news())
 
         else:

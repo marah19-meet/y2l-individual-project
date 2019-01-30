@@ -116,8 +116,8 @@ li a:hover {
         <div class = "form">
         <form action="/news" method="post" class="new-things">
             <input type="text" name="title" placeholder="title" class="new-info">
-            <input type="text" name="content" placeholder="content" class="new-info" >
-            <input type="text"name="image_url" placeholder="place image url here" class="new-info">
+            <input type="text" name="content" placeholder="Your STORY" class="new-info"  >
+            <!-- <input type="text"name="image_url" placeholder="place image url here" class="new-info"> -->
             <input type= "submit" value="submit">
         </form>
         </div>
@@ -130,7 +130,7 @@ li a:hover {
             <p class="date">Date {{content.time_of_upload}}</p>
             <p class="news-titles">{{content.title}}</p>
             <p class="news-content">{{content.text}}</p>
-            <img src="{{content.image}}" class="img">
+            <!-- <img src="{{content.image}}" class="img"> -->
           
             <br>
         </div>

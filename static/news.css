@@ -39,7 +39,7 @@ body {
     margin: 20px;
 }
 .img{
-    margin: 20px;
+    margin: 50px;
 }
 .name-of-writer{
     margin: 20px;
@@ -61,4 +61,5 @@ body {
 }
 .new-info{
     margin: 30px;
+    color:black;
 }
